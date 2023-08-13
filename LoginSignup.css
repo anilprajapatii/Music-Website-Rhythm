@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    background-color: black;
+    
+}
+section{
+    position: relative;
+    display: flex;
+    padding: 10px;
+    margin-top: 30px;
+}
+.left_box1{
+    width: 35%;
+    height: 90vh;
+    border: 1px solid blueviolet;
+    margin-left: 2.5%;
+    background-color: #111727;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 5px 0px 2px 090f1f;
+}
+.right_box1{
+    position: relative;
+    width: 65%;
+    height: 90vh;
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+.right_box1 img{
+    height: 70%;
+    width: 50%;
+    margin: auto;
+}
+.left_box1 .content{
+    width: 75%;
+    height: auto;
+    /* border: 2px solid #14161c; */
+    padding: 25px 20px;
+    background:#fff;
+}
+.left_box1 .content .card{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+.left_box1 .content .card input{
+     font-size: 14px;
+}
+.left_box1 .content .card input{
+    width: 90%;
+    padding: 6px 10px;
+    border: 1px solid rgb(158, 238, 238);
+    margin-top: 5px;
+    background:rgb(238, 238, 238);
+
+}
+.left_box1 .content .submit{
+     margin-top: 30px;
+     padding: 8px 20px;
+     color: #fff;
+     background: #111727;
+     width: 96%;
+     cursor: pointer;
+} 
+.left_box1 .content .check{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+} 
+.left_box1 .content .check span{
+    margin-left: 5px;
+    font-size: 15px;
+} 
+.left_box1 .content p {
+     margin-top: 90px;
+     text-align: center;
+     font-size: 16px;
+} 
+.left_box1 .content p a {
+    text-decoration: none;
+    color: rgb(31, 205, 205);
+    font-weight: bold;
+
+}
+
+.right_box1 h3 {
+    position: absolute;
+    background: aqua;
+    color: #000;
+    right: 0px;
+    bottom: 20px;
+    padding: 3px 10px;
+    font-size: 15px;
+    border-radius: 5px 0px 0px 5px;
+
+}
+   
